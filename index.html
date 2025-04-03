@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dash board</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
 </head>
@@ -15,57 +15,118 @@
         <li class="hd"><a href=""><i class="fa-solid fa-microscope"></i> laboratory</a></li>
         <li class="hd"><a href=""><i class="fa-solid fa-syringe"></i>Telemadcine</a></li>
         <li class="hd"><a href=""><i class="fa-solid fa-heart-pulse"></i>Pro Life</a></li>
+
+        <i class="fa-regular fa-bell"></i>
     </ul>
+    
 </nav>
 
 <div class="senction">
     <aside>
-        
          <ul class="side-hder">
-            <img src="./doctor2-5997504_1280.jpg" alt="Dr profile" height="100" width="50%">
+            <img src="./doctor2-5997504_1280.jpg" alt="Dr id" height="100" width="50%">
             <li class="side-menu">Apointment</li>
             <li class="side-menu">Overview</li>
             <li class="side-menu">Lab</li>
             <li class="side-menu">See you patient's result</li>
             <li class="side-menu">patients</li>
             <li class="side-menu">Patients can consult you?</li>
-            <li class="side-menu">Chat <span>10</span></li>
+            <li class="side-menu">Chat <span class="spn">10</span></li>
         </ul>
     </aside>
 
     <main>
         <div class="part1">
-            <h2>welcome steven john, how're you feeling today?
-                <!-- <button class="btn1">Search pathologhy result</button> -->
-                 <input class="btn1" type="button" value="Search pathologhy result">
+            <h2>welcome steven john, How're you feeling today?
+                <button class="btn1">Search pathologhy result</button>
+                 <!-- <input class="btn1" type="button" value="Search pathologhy result"> -->
             </h2>
              
-        
             <h4 class="theme">Apply dark theme</h4>
-            <input class="checkbox" type="checkbox" name="" id="">
+            <input class="checkbox" type="checkbox" name="" id="" style="width: 20px;">
              
             <img src="./doctor2-5997504_1280.jpg" alt="Dr profile" height="100" width="10%" class="profile">
-            <h4 class="profile-name"><b>Steven john</b></h4>
-
+            <h4 class="profile-name">Steven john</h4> 
         </div>
 
         <div class="column">
             <div class="column1">
                 <h5>Diagnostics</h5>
-                <h6><span></span>completed</h6>
-                <h6><span></span>in progress</h6>
-                <h6><span></span>not started</h6>
-                <div class="pie-chart"></div>
+                <div class="layer">
+                    <div class="item"><span class="green"></span> <h6>completed</h6></div>
+                    <div class="item"><span class="goldenrod"></span> <h6>in progress</h6></div>
+                    <div class="item break"><span class="red"></span> <h6>not started</h6></div>
+                </div>
+
+                <div class="pie-container">
+                    <div class="pie-box"></div>
+                </div>
             </div>
+
             <div class="column2">
                 <h5>Patients</h5>
-                <h6><span></span>patients</h6>
+                <div class="item  layer"><h6><span class="purple"></span>patients</h6></div>
+
+                <div class="graph-containers">
+                    <div class="n-m">
+                        <div class="y-axis axis1">200</div>
+                        <div class="y-axis">50</div>
+                        <div class="y-axis">0</div>
+                    </div>
+                    <div class="bars-chart">
+                        <div class="barss" style="height: 55%;">
+                            <div class="indexx-label">January</div>
+                        </div>
+                        <div class="barss" style="height: 38%;">
+                            <div class="indexx-label">Februray</div>
+                        </div>
+                        <div class="barss" style="height: 78%;">
+                            <div class="indexx-label">March</div>
+                        </div>
+                        <div class="barss" style="height: 78%;">
+                            <div class="indexx-label">April</div>
+                        </div>
+
+                        <div class="barss" style="height: 50%;">
+                            <div class="indexx-label">May</div>
+                        </div>
+
+                        <div class="barss" style="height: 50%;">
+                            <div class="indexx-label">June</div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
             <div class="column3">
                 <h5>Health index</h5>
-                <h6><span></span>Health index</h6>
+               <div class="item layer"><h6><span class="red"></span>Health index</h6></div>
+
+               <div class="chart-container">
+                    <div class="bar-x">
+                        <div class="figure">200</div>
+                        <div class="figure">0</div>
+                    </div>
+
+                    <div class="graph-chart">
+                        <div class="bars" style="height: 65%;">
+                            <div class="index-label">Blood pressure</div>
+                        </div>
+                        <div class="bars" style="height: 38%;">
+                            <div class="index-label">Heart rate</div>
+                        </div>
+                        <div class="bars" style="height: 38%;">
+                            <div class="index-label">Blood suger</div>
+                        </div>
+                        <div class="bars" style="height: 50%;">
+                            <div class="index-label">cholesterol</div>
+                        </div>
+                    </div>
+               </div>
             </div>
         </div>
+        
+
     </main>
 </div>
 
