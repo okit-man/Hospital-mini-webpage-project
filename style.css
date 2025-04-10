@@ -460,7 +460,7 @@ h6 {
     }
 
     .fa-bell {
-        margin-left: auto;
+        margin-right: auto;
     
     }
     h2 {
@@ -476,6 +476,9 @@ h6 {
     .theme {
         font-size: 1em;
         margin-top: 10px;
+    }
+    .senction {
+        height: auto;
     }
     
     .checkbox {
