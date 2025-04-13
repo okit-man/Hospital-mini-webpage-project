@@ -94,6 +94,7 @@ main {
     flex-grow: 1;
     /* the min-height gives it a scroll bar */
     /* min-height: 100vh;   */
+    /* this shift the main from the side bar */
     margin: 0 20px 0 280px;
 }
 .part1 {
@@ -394,11 +395,14 @@ h6 {
     .column2,
     .column3 {
         width: 75%;
-        margin: 15px auto
+        margin: 0 auto;
     }
     .column2,
     .column3 {
         height: 250px
+    }
+    .column3 {
+        margin-bottom: 35px;
     }
     .profile {
         margin: 0 12px 0 7px;
