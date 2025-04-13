@@ -93,7 +93,7 @@ main {
     padding-top: 85px;
     flex-grow: 1;
     /* the min-height gives it a scroll bar */
-    min-height: 100vh;  
+    /* min-height: 100vh;   */
     /* this shift the main from the side bar */
     margin: 0 20px 0 280px;
 }
@@ -497,6 +497,9 @@ h6 {
     /* .senction {
         height: auto;
     } */
+     .main {
+        min-height: 100vh;
+     }
     
     .checkbox {
         margin-top: -36px;
