@@ -467,7 +467,7 @@ h6 {
     }
 
     .fa-bell {
-        margin-right: auto;
+        margin-right: 20px;
     
     }
     h2 {
@@ -490,14 +490,14 @@ h6 {
     
     .checkbox {
         margin-top: -36px;
-        margin-left: 190px;
+        margin-left: 195px;
     }
     .side-menu {
         font-size: 0.95em;
         line-height: 40px;
     }
     .column {
-        min-height: 200VH;
+        min-height: 100vh;
     }
     .column1,
     .column2,
