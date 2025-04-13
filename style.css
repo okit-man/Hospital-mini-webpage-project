@@ -26,7 +26,6 @@ nav {
 }
 .hd {
     list-style-type: none;
-    
 }
 .header a {
     text-decoration: none;
@@ -57,7 +56,8 @@ a:hover {
 }
 .side-hder {
     background-color: #fff;
-    height: 100vh;
+    /* i initially use vh wnat to know if % is the right one to use */
+    height: 100%;
     width: 250px;
     position: fixed;
     left: 0;
@@ -161,7 +161,6 @@ h2 {
     gap: 20px;
     margin-top: 31px;
     padding: 0 20px;
-    
 }
 
 .column1, .column2, .column3 {
@@ -371,7 +370,7 @@ h6 {
     .header {
         gap: 15px;
         flex-wrap: wrap;
-        /* background-color: red; */
+        background-color: red;
     }
 
     .header a {
@@ -384,7 +383,8 @@ h6 {
     .side-hder {
         height: 120vh;
         margin-top: 71px;
-        /* width: 210px; */
+        position: fixed;
+        overflow: auto;
     }
     .column {
         flex-direction: column;
@@ -394,7 +394,7 @@ h6 {
     .column2,
     .column3 {
         width: 75%;
-        margin: 0 auto
+        margin: 15px auto
     }
     .column2,
     .column3 {
@@ -414,9 +414,9 @@ h6 {
 
 @media screen and (max-width: 768px) {
     .header {
-        /* flex-wrap: wrap; */
+        flex-wrap: wrap;
         gap: 15px;
-        /* background-color: green; */
+        background-color: green;
     }
 
     .header a {
@@ -452,7 +452,7 @@ h6 {
         flex-wrap: wrap;
         /* white-space: nowrap; */
         /* gap: 10px; */
-        /* background-color: blue; */
+        background-color: blue;
     }
 
     .header a {
@@ -477,9 +477,9 @@ h6 {
         font-size: 1em;
         margin-top: 10px;
     }
-    .senction {
+    /* .senction {
         height: auto;
-    }
+    } */
     
     .checkbox {
         margin-top: -36px;
