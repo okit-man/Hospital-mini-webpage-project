@@ -93,7 +93,7 @@ main {
     padding-top: 85px;
     flex-grow: 1;
     /* the min-height gives it a scroll bar */
-    /* min-height: 100vh;   */
+    min-height: 100vh;  
     /* this shift the main from the side bar */
     margin: 0 20px 0 280px;
 }
@@ -423,7 +423,7 @@ h6 {
     .header {
         flex-wrap: wrap;
         gap: 15px;
-        /* background-color: green; */
+        background-color: green;
     }
 
     .header a {
@@ -469,7 +469,7 @@ h6 {
         flex-wrap: wrap;
         /* white-space: nowrap; */
         /* gap: 10px; */
-        /* background-color: blue; */
+        background-color: blue;
     }
 
     .header a {
