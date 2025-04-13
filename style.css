@@ -443,6 +443,9 @@ h6 {
         margin-top: -41px;
         margin-left: 210px;
     }
+    .column {
+        min-height: 100vh;
+    }
        
     .profile, .profile-name {
         display: none;       
@@ -487,11 +490,14 @@ h6 {
     
     .checkbox {
         margin-top: -36px;
-        margin-left: 180px;
+        margin-left: 190px;
     }
     .side-menu {
         font-size: 0.95em;
         line-height: 40px;
+    }
+    .column {
+        min-height: 200VH;
     }
     .column1,
     .column2,
