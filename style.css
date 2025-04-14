@@ -237,7 +237,6 @@ h6 {
     margin-top: 22px;
     border-radius: 100px;
     background-color: blue;
-    /* gap: 5px; */
 
     background: repeating-conic-gradient(
         from 0deg,
@@ -375,7 +374,6 @@ h6 {
     .header {
         gap: 15px;
         flex-wrap: wrap;
-        background-color: red;
     }
 
     .header a {
@@ -385,12 +383,6 @@ h6 {
     .fa-bell {
         margin-left: 400px;
     }
-    /* .side-hder {
-        height: 120vh;
-        margin-top: 71px;
-        position: fixed;
-        overflow: auto;
-    } */
     .column {
         flex-direction: column;
         align-items: center;
@@ -424,7 +416,6 @@ h6 {
     .header {
         flex-wrap: wrap;
         gap: 15px;
-        background-color: green;
     }
 
     .header a {
@@ -451,9 +442,6 @@ h6 {
     .profile, .profile-name {
         display: none;       
     }
-    /* .side-hder {
-        height: 300vh;
-    } */
          .graph-containers {
              margin-right: 65px;
          }
@@ -468,9 +456,6 @@ h6 {
 @media screen and (max-width: 480px) {
     .header {
         flex-wrap: wrap;
-        /* white-space: nowrap; */
-        /* gap: 10px; */
-        background-color: blue;
     }
 
     .header a {
@@ -481,23 +466,22 @@ h6 {
         margin-left: 95px;
     
     }
+    img {
+        clip-path: circle(50px);
+        margin-top: 15px;
+    }
     h2 {
         font-size: 1em;
-        /* text-align: ; */
     }
     .btn1 {
         font-size: 0.7em;
         padding: 3px 6px;
         margin-top: 10px;
-        /* height: auto; */
     }
     .theme {
         font-size: 1em;
         margin-top: 10px;
     }
-    /* .senction {
-        height: auto;
-    } */
      .main {
         min-height: 100vh;
      }
@@ -506,9 +490,12 @@ h6 {
         margin-top: -36px;
         margin-left: 195px;
     }
+    .side-hder {
+        margin-top: 72px;
+    }
     .side-menu {
         font-size: 0.95em;
-        line-height: 40px;
+        line-height: 45px;
     }
     .column1,
     .column2,
@@ -517,7 +504,6 @@ h6 {
     }
     
     .pie-box {
-        /* margin-top: 20px; */
         width: 20vh;
         height: 20vh;
         font-size: 20px;
