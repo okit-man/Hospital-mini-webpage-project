@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #c8d2d5;
+    min-height: 100vh;
 }
 
 nav {
@@ -374,7 +375,7 @@ h6 {
     .header {
         gap: 15px;
         flex-wrap: wrap;
-        /* background-color: red; */
+        background-color: red;
     }
 
     .header a {
@@ -384,12 +385,12 @@ h6 {
     .fa-bell {
         margin-left: 400px;
     }
-    .side-hder {
+    /* .side-hder {
         height: 120vh;
         margin-top: 71px;
         position: fixed;
         overflow: auto;
-    }
+    } */
     .column {
         flex-direction: column;
         align-items: center;
